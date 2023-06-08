@@ -2,3 +2,11 @@
 @import './partials/header.scss';
 @import './partials/footer.scss';
 @import './partials/main.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
