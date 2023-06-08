@@ -1,0 +1,70 @@
+footer{
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+}
+        
+.list{
+    width: 60%;
+    margin: 2rem 0;
+}
+
+.footmenu{
+    padding: 1rem 2rem 0 0;
+    h2{
+        padding-bottom: 0.5rem;
+        color: white;
+    }
+    ul{
+        line-height: 1.5rem;
+        padding: 0;
+        li{
+            list-style: none;
+            a{
+                color: gray;
+                text-decoration: none;
+            }
+        }  
+    }
+}
+    
+.bg-logo{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.boxxi{
+    color: gray;
+}
+    
+.social{
+        height: 100px;
+        background-color: rgb(48, 48, 48);
+.footer-down{
+        height: 100%;
+        button{
+            padding: 10px;
+            background-color: rgb(48, 48, 48);;
+            border: 2px solid rgb(2, 130, 249);
+            color:white
+        }
+        .social-buttons{
+            color: white;
+            h4{
+                color: rgb(2, 130, 249);
+                padding-right: 15px;
+                font-weight: bold;
+                }
+            ul{
+                display: flex;
+                list-style-type: none;
+                padding: 1rem;
+                li{
+                    margin: 0 0.6rem;
+                }
+            }
+        }
+    }
+}
