@@ -6,3 +6,43 @@
     padding: 0;
     margin: 0;
 }
+
+.navbar{
+    height: 7rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+}     
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 105px;
+    font-weight: bold;
+    letter-spacing: 0.05px;
+    margin: 0 5px;
+    &:hover{
+        color: rgb(3, 130, 250);
+        border-bottom: 2px solid rgb(2, 130, 249);
+    }                            
+}
+        
+form{
+    position: relative;
+    input{
+        border: none;
+        border-bottom: 0.3rem solid rgb(2, 130, 249);
+        padding-right: 1.2rem;
+        width: 11rem;
+    }
+    i{
+        position: absolute;
+        right: 0;
+        top: 40%;
+        transform: translateY(-50%);
+        color: gray;
+    }
+}
