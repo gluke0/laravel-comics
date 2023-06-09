@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $comics = config('comics.arrayFumetti');
+    $comics = config('db.comics');
 
     return view('pages.home', compact('comics'));
 });
