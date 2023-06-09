@@ -20,13 +20,12 @@
     display: flex;
     align-items: center;
     padding: 0;
-    height: 105px;
+    height: 6rem;
     font-weight: bold;
-    letter-spacing: 0.05px;
-    margin: 0 5px;
+    margin: 0 0.3rem;
     &:hover{
         color: rgb(3, 130, 250);
-        border-bottom: 2px solid rgb(2, 130, 249);
+        border-bottom: 0.5rem solid rgb(2, 130, 249);
     }                            
 }
         
